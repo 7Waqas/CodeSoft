@@ -1,0 +1,51 @@
+body{
+    background-image: url(business-861325_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+h1,h4{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.container{
+    background-color: rgb(0, 0, 0);
+    max-width: fit-content;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.Calculator .button input {
+   
+    border: 0px;
+    color: rgb(8, 66, 66);
+    background: rgb(255, 125, 74);
+    height: 60px;
+    width: 60px;
+    font-weight: bold;
+    font-size: 35px;
+    cursor: pointer;
+    margin: 15px;
+}
+.input{
+    color: black;
+    display: grid;
+    margin: 15px;
+    height: 100px;
+}
+.button{
+    height: 68px;
+}
+.Calculator{
+    border-radius: 15px;
+    background-color: black;
+    padding: 5px;
+    height: 500px;
+    
+}
